@@ -1,0 +1,185 @@
+IF
+    Delay(10)
+	CombatCounter(0)
+	OR(6)
+		HasItemEquipedReal("TSON#P",Player1)
+		HasItemEquipedReal("TSON#P",Player2)
+		HasItemEquipedReal("TSON#P",Player3)
+		HasItemEquipedReal("TSON#P",Player4)
+		HasItemEquipedReal("TSON#P",Player5)
+		HasItemEquipedReal("TSON#P",Player6)
+THEN
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@3)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@4)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@5)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@6)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@7)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@8)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@9)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@10)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@11)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@12)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@13)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@14)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@15)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@16)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@17)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@18)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@19)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@20)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@21)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@22)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@23)
+	RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@24)
+    RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@25)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@26)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@27)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@28)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@29)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@30)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@31)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@32)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@33)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@34)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@35)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@36)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@37)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@38)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@39)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@40)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@41)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@42)
+END
+
+IF
+	Delay(20)
+	!CombatCounter(0)
+	OR(6)
+		HasItemEquipedReal("TSON#P",Player1)
+		HasItemEquipedReal("TSON#P",Player2)
+		HasItemEquipedReal("TSON#P",Player3)
+		HasItemEquipedReal("TSON#P",Player4)
+		HasItemEquipedReal("TSON#P",Player5)
+		HasItemEquipedReal("TSON#P",Player6)
+THEN
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@43)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@44)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@45)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@46)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@47)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@48)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@49)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@50)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@51)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@52)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@53)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@54)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@55)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@56)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@57)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@58)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@59)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@60)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@61)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@62)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@63)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@64)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@65)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@66)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@67)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@68)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@69)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@70)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@71)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@72)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@73)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@74)
+	RESPONSE #10
+		DisplayStringHeadOwner("TSON#P",@75)
+	RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@76)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@77)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@78)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@79)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@80)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@81)
+    RESPONSE #10
+        DisplayStringHeadOwner("TSON#P",@82)
+END
