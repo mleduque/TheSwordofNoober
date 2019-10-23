@@ -1,0 +1,270 @@
+@9001 = ~[Uu]tilisable[ %tab%]+[Uu]niquement[ %tab%]+[Pp]ar[ %tab%]*:~
+@9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+
+@1000 = ~L'epee de Noober~
+@1020 = ~Ce mod n'est pas disponible pour votre jeu.~
+
+@1 = ~Épée de Noober~
+@2 = ~Un jour, une pierre fut jetée et Noober mourut d'un traumatisme crânien. Ses derniers mots furent « et maintenant ? » Vu que ce furent - justement - ses DERNIERS mots, la population de Nashkel en fut soulagée et fit la fête. Son frère Neeber, par contre, fut très triste parce qu'il n'avait personne à qui parler pendant la fête. Neeber réunit toutes ses économies et paya un clerc pour qu'il rappelle son frère à la vie. Mais pendant que le clerc accomplissait son miracle, Neeber n'arrêtait pas de bavarder. Le clerc fut distrait, et envoya par erreur l'âme de Noober dans une épée « bâtarde ». Ensuite, le clerc jeta Neeber et l'épée dehors. Cette épée a des bosses, il semblerait que les gens lui jettent des pierres, et bavarde... elle ne vaut pas grand-chose.
+
+PARAMÈTRES :
+
+Capacité de combat :
+- 30 % de chances que toute créature touchée par l'épée s'enfuie lorsqu'elle entend l'épée parler.
+
+TAC0 : +4
+Dégâts : 2d4 +4
+Type de dégâts : tranchant
+Poids : 20
+Facteur de vitesse : 7
+Type de compétence : épée bâtarde
+Type : arme à 1 main
+Force nécessaire : 11
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Voleur
+ Moine
+ Belluaire~
+
+@3 = ~(renifle) Quelqu'un pourrait-il me gratter le nez ?~
+@4 = ~Je veux être un enfant de Bhaal !~
+@5 = ~Tra la li, tra la la !~
+@6 = ~Ouais, je suis un pirate ! Tenez bon ! Bon vent, Bon vent, bon vent !~
+@7 = ~Un jour, je serai une véritable épée. Je ne mens pas, vous voyez ? Ma lame ne s'allonge pas.~
+@8 = ~Un rasage, une coupe et - ah, c'est quoi la suite ?~
+@9 = ~Un kilomètre à pied, ça use, ça use, un kilomètre à pied, ça use les souliers... Allez, tout le monde ! Deux kilomètres à pied, ça use, ça use...~
+@10 = ~Effets ? Bonus ? Mais que voulez-vous donc ? Je suis une épée qui parle.~
+@11 = ~Papier-panier-piano, papier-panier-piano, papier-panier-piano, piapier-pianier-panio, pianier-piapier-pianio... bah ! Je n'y arrive toujours pas.~
+@12 = ~J'aimerais qu'il y ait des singes dans le coin. Les singes sont sympathiques, et rigolos.~
+@13 = ~Je veux être un clerc... Est-ce que les épées ont des dieux ?~
+@14 = ~Hé, vous n'allez pas me taper sur ma poignée, n'est-ce pas ? C'est promis ?~
+@15 = ~Formidable... Un autre grouilleux. S'il vous plaît ne vous enfuyez pas cette fois, je veux combattre un peu avant de me retrouver complètement rouillée !~
+@16 = ~Pouvez-vous me montrer comment m'aiguiser ?~
+@17 = ~Je ne vous paie pas pour que vous m'écoutiez.~
+@18 = ~Il fait trop sombre, je n'y vois rien.~
+@19 = ~Attendez... je n'ai pas d'yeux !~
+@20 = ~Attendez... je n'ai pas de bouche !~
+@21 = ~Attendez... je n'ai pas d'oreilles !~
+@22 = ~Attendez... qu'étais-je en train de dire ?~
+@23 = ~Mais où ai-je donc mis mon fourreau ?~
+@24 = ~Vous êtes des aventuriers ? Je veux être un aventurier. En fait, J'ÉTAIS un aventurier... et puis j'ai été transformé en épée.~
+@25 = ~Tout le monde m'a frappé sur ma poignée. Le ferez-vous ?~
+@26 = ~Waou ! C'est un dragon ?~
+@27 = ~Ma grand-mère m'a dit une fois que les petites épées, on s'en sert mais ça ne se montre pas !~
+@28 = ~Vos mains sont vraiment moites !~
+@29 = ~Est-ce que ma garde a l'air grosse avec ce fourreau ?~
+@30 = ~Suis-je le seul dans ce groupe à penser que <CHARNAME> parle trop ?~
+@31 = ~Un chasseur sachant chasser sait chasser les rakshasas sans son chien de chasse !~
+@32 = ~Ce n'est pas ma faute si mon manche est plus long que le vôtre !~
+@33 = ~Un truc bizarre m'est arrivé l'autre jour, je marchais et puis... vous comprenez ? ... marcher... Hé, je suis une épée !~
+@34 = ~Ouais, j'suis dans la place, j'travaille mon physique, <CHARNAME> en est témoin, yo.~
+@35 = ~Un prêtre de Lathandre et un kobold rentrent dans une taverne... ... ... Bon, je crois que vous la connaissez déjà.~
+@36 = ~Drizzt moi ça !~
+@37 = ~Je pense que je pourrais peut-être m'arrêter de parler un moment. NON !~
+@38 = ~Vous avez déjà été à la Porte de Baldur ? Moi oui.~
+@39 = ~Ces couleurs vous donnent un air vraiment stupide...~
+@40 = ~J'ai connu un type nommé Dilby. Je me demande bien ce qu'il est devenu.~
+@41 = ~À mon époque, il me fallait traverser pieds nus et sous la pluie un champ rempli d'ankhegs juste pour trouver une auberge.~
+@42 = ~Je crois que j'ai laissé quelque chose dans le sac de contenance de votre maman.~
+@43 = ~Craignez ma puissante, euh... tranchanteté.~
+@44 = ~Vous êtes stupide, à un point tel que vous en êtes... euh, stupide.~
+@45 = ~Je les trancherai comme du beurre, ou peut-être comme de la margarine. Qu'est-ce qui est le plus dur des deux ?~
+@46 = ~Personne n'échappera à mon regard d'acier. Hé hé, acier, vous avez compris ?~
+@47 = ~Vous savez, j'ai en fait été forgée par les nains comme cadeau pour les elfes. Je les ai entendus parler de quelque chose qui était censé être une farce, mais je n'ai jamais vraiment tout compris.~
+@48 = ~Hé hé, essayez de dire « l'abeille coule » dix fois de suite, vraiment vite.~
+@49 = ~J'aimerais qu'il y ait des singes dans le coin. Les singes sont sympathiques, et rigolos.~
+@50 = ~Attention, ma sœur a été mordue par un élan une fois. Les morsures d'élan peuvent être vraiment graves.~
+@51 = ~Hé les monstres... LES MONSTRES... Nous sommes ici !~
+@52 = ~Formidable.. Un autre grouilleux. S'il vous plaît, ne vous enfuyez pas cette fois, je veux combattre un peu avant de me retrouver complètement rouillé !~
+@53 = ~Waou, le dernier monstre qu'on a rencontré était plutôt sympa !~
+@54 = ~Je taillerai en pièces mes ennemis et me planterai en leur sein ! ... hi hi hi, sein...~
+@55 = ~Je n'aime pas les souterrains. Ils me perturbent et me font peur.~
+@56 = ~Aïe ! Visez les parties charnues, s'il vous plait !~
+@57 = ~Alors les tripes ressemblent à cela ?~
+@58 = ~Un gars m'a utilisé contre un dragon une fois... ces types sentent le dragon.~
+@59 = ~C'est moi que vous appelez une épée bâtarde ?!~
+@60 = ~Il n'y a pas de place pour deux d'entre nous dans tes mains !~
+@61 = ~Des monstres... ATTENTION... Rien ne rime avec monstre... qui l'eût cru ?~
+@62 = ~Vous appelez ça une armure ? Vous devriez changer de forgeron.~
+@63 = ~Dépêchez-vous et dites que vous êtes êtes en train de frôler la mort !~
+@64 = ~Vous avez votre diplôme d'HEC ? Les Hauts Escrimeurs Calamiteux ?~
+@65 = ~(sniff !) Je sens votre peur... Vous devriez vous doucher.~
+@66 = ~Beurk. Je déteste quand le sang coule.~
+@67 = ~Ne le dites pas à <CHARNAME>, mais je suis de vôtre côté.~
+@68 = ~Mon frère m'a dit que les hobgobelins sont faits de sucre candi.~
+@69 = ~Est-ce que vous ne me devez pas d'argent ?~
+@70 = ~Vous avez de la chance que je sois incapable de lancer un Projectile magique parce que sinon... je le ferais !~
+@71 = ~L'amour s'en va plus facilement que les taches de sang.~
+@72 = ~Un, deux, trois... pierre !~
+@73 = ~Un, deux, trois... papier !~
+@74 = ~Un, deux, trois... ciseaux !~
+@75 = ~Je gagne, vous perdez, et vous savez quoi ? Puisque vous perdez, c'est que c'est moi qui gagne !~
+@76 = ~Vous me parlez ? Je ne vois aucune autre Épée de Noober, donc c'est forcément à moi que vous parlez !~
+@77 = ~Vite ! Il me faut boire une potion de Boisson.~
+@78 = ~Tes fesses vont la sentir passer, la pénurie de fer !~
+@79 = ~Si vous étiez moi et que j'étais vous, je m'enfuirais !~
+@80 = ~Est-ce que la sécurité de votre arbalète est enclenchée ?~
+@81 = ~L'épée rentre, le sang sort.~
+@82 = ~Je vais vous frapper si fort que vous vous réveillerez à Château-Suif.~
+
+// Discussion avec Noober la première fois
+
+@83 = ~Comme c'est étrange... Vous avez besoin de me parler ?~
+@84 = ~Y a-t-il une raison pour que vous soyez à ce point... euh... vous ?~
+@85 = ~Non.~
+@86 = ~À ce point... moi ? Mais que voulez-vous dire ?~
+@87 = ~Rien, laissez tomber.~
+@88 = ~Barbant !~
+@89 = ~Une épée si fabuleuse à porter !~
+@90 = ~C'est méchant. Je ne suis pas ennuyeux, c'est juste que vous ne me comprenez pas. Vous ne pensez toujours qu'à vous-même. Je vais aider cette pauvre mère à retrouver son enfant, je vais aller sauver ces enfants réduits en esclavage... C'est toujours « je suis ceci ou je suis cela ». Peut-être devriez-vous penser aux autres et prendre en compte leurs sentiments de temps en temps !~
+@91 = ~Sauver les gens n'est-il pas une façon de penser aux autres ?~
+@92 = ~Hum... ouais.~
+@93 = ~Vous n'avez pas vraiment répondu à ma question.~
+@94 = ~Eh bien je sais que cela va être difficile à croire, mais je n'ai pas toujours été comme ça. Cela a pris du temps. Il a vraiment fallu que je m'entraîne beaucoup, mais au bout d'un certain temps, les gens se sont retrouvés abasourdis par ma prestance.~
+@95 = ~Bien sûr, on peut jouer sur les mots pour leur faire dire ce qu'on veut. Comme par exemple... je pourrais transformer arme en larme.~
+@96 = ~Cela vous arrive de vous écouter parler ?~
+@97 = ~Votre question n'a pas de réponse, tout comme le vent n'a pas de but.~
+@98 = ~J'essaie de ne pas le faire, cela me fait perdre du temps pendant lequel je ne peux pas dire ce que j'essaie de dire.~
+@99 = ~C'est bien ce que je pensais.~
+
+// Si les aventuriers reviennent parler à Noober
+
+@100 = ~Eh bien... bien... regardez qui est de retour pour boire les paroles avisées de Noober.~
+@101 = ~Qu'avez-vous fait après que nous ayons quitté Nashkel ?~
+@102 = ~Étiez-vous bons amis, votre frère et vous ?~
+@103 = ~Cela vous arrive de vous écouter parler ?~
+@104 = ~C'est une longue histoire, en quelque sorte ; voulez-vous l'entendre ?~
+@105 = ~Dieu merci de me l'avoir demandé au préalable mais... non.~
+@106 = ~Bien sûr, je n'ai rien d'autre d'utile à faire.~
+@107 = ~Regardez l'heure qu'il est, il faut que j'y aille.~
+@108 = ~Oui, les meilleurs qui soient. Je peux vous raconter une histoire à notre sujet. Voulez-vous l'entendre ?~
+@109 = ~Bien, de toute façon je ne souhaitais pas vraiment que vous l'entendiez car elle est trop compliquée pour votre esprit, et je ne veux pas que votre esprit se fasse mal !~
+@110 = ~Après que vous ayez été si gentil en ne me jetant pas de pierres, j'ai pensé que ce devait être à mon tour d'être gentil. J'ai donc commencé à faire des discours en public pour qu'on soutienne nos aventuriers dans le coin, mais les gens ne m'ont pas écouté, ils m'ont juste jeté des pierres. Mais je n'ai pas laissé tomber. J'ai tenté de hurler mes discours d'endroits en hauteur, mais les gens m'ont encore une fois jeté des pierres. Et vu que je me tenais en hauteur, eh bien je suis tombé. J'avais oublié que les gens de Nashkel sont un peu simples d'esprit, il était temps pour moi de partir. J'ai fait mes bagages et je me suis dirigé vers Franc-Marché, où habite mon frère. J'ai vécu de belles aventures. Tout comme vous, je me suis battu contre vents et marées et j'ai gagné à la fin. J'ai été kidnappé par des bandits, mais je suis tellement beau-parleur qu'ils n'ont même pas eu le temps de me détacher, ils se sont tout simplement enfuis en me laissant sur le bord de la route. Et pendant mes pérégrinations, je chantais des chansons que j'ai écrites moi-même, comme celle-ci :
+Dragons et sorcières
+Et démons... oh la la !!
+Et c'est là que Noober intervient
+Et leur donne un coup de poing dans l'œil !
+
+Ou alors une autre de mes chansons favorites :
+Les kobolds sont rouges,
+les oranges sont, euh... orange,
+Noober est le meilleur,
+Joyeux anniversaire.
+
+Je travaille encore sur cette dernière chanson, il n'y a pas beaucoup de mots qui riment avec orange.
+Après environ un mois, j'ai fini par arriver à Franc-Marché.~ ~Après que vous ayez été si gentille en ne me jetant pas de pierres, j'ai pensé que ce devait être à mon tour d'être gentil. J'ai donc commencé à faire des discours en public pour qu'on soutienne nos aventuriers dans le coin, mais les gens ne m'ont pas écouté, ils m'ont juste jeté des pierres. Mais je n'ai pas laissé tomber. J'ai tenté de hurler mes discours d'endroits en hauteur, mais les gens m'ont encore une fois jeté des pierres. Et vu que je me tenais en hauteur, eh bien je suis tombé. J'avais oublié que les gens de Nashkel sont un peu simples d'esprit, il était temps pour moi de partir. J'ai fait mes bagages et je me suis dirigé vers Franc-Marché, où habite mon frère. J'ai vécu de belles aventures. Tout comme vous, je me suis battu contre vents et marées et j'ai gagné à la fin. J'ai été kidnappé par des bandits, mais je suis tellement beau-parleur qu'ils n'ont même pas eu le temps de me détacher, ils se sont tout simplement enfuis en me laissant sur le bord de la route. Et pendant mes pérégrinations, je chantais des chansons que j'ai écrites moi-même, comme celle-ci :
+Dragons et sorcières
+Et démons... oh la la !!
+Et c'est là que Noober intervient
+Et leur donne un coup de poing dans l'œil !
+
+Ou alors une autre de mes chansons favorites :
+Les kobolds sont rouges,
+les oranges sont, euh... orange,
+Noober est le meilleur,
+Joyeux anniversaire.
+
+Je travaille encore sur cette dernière chanson, il n'y a pas beaucoup de mots qui riment avec orange.
+Après environ un mois, j'ai fini par arriver à Franc-Marché.~
+@111 = ~Waou. C'était presque intéressant.~
+@112 = ~C'est tout ?~
+@113 = ~Hé, c'est vous qui avez voulu l'entendre. Je pourrais continuer longtemps mais tout ce qui s'est passé ensuite, c'est que je suis revenu à Nashkel car les pierres qu'on me jetait étaient d'une couleur différente et qu'elles faisaient au moins trois fois plus mal que celles de Nashkel.~
+@114 = ~Peut-être. Ce n'est pas sûr.~
+@115 = ~Vous avez vraiment été aimable avec moi. Je vais vous donner des pierres que les gens m'ont lancées. Vous pouvez aussi garder cette épée. Prenez-en soin.~
+
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "

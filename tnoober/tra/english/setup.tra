@@ -1,0 +1,151 @@
+@9001 = ~[Oo]nly[ %tab%]+[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+@9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+
+@1000  = ~The Sword of Noober~
+@1020 = ~This mod is not available for your game.~
+
+@1    = ~Sword of Noober~
+@2    = ~A rock was thrown and Noober died from a head trauma. His last words were "What about now?". Because those were his last words, the population of Naskel was relieved and threw a party. His brother, Neeber, on the other hand was very sad that he had no one to talk with at the party. Neeber took his life savings and paid a cleric to revive his brother. While the cleric was performing his miracles, Neeber would not stop talking. The cleric was distracted and sent Noober's soul accidentally in to a "bastard" sword. The cleric threw Neeber and the sword out. The sword has dents, it seems that people threw rocks at the sword. Since the sword talks and has dents, this sword isn't worth very much.
+
+STATISTICS:
+
+THACO: +4
+Damage: 2d4+4
+Special: 30% chance that any creature hit by the sword will run away from hearing the sword talking
+Damage type: slashing
+Weight: 20
+Speed Factor: 7
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires: 11 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+
+@3    = ~Sniffle. Can somebody scratch my nose?~
+@4    = ~I wanna be a Bhaalspawn!~
+@5    = ~Doo dee doo, dum de doh!~
+@6    = ~Yar, I'm a pirate! Avast! Howdy, howdy, howdy!~
+@7    = ~Some day I'm going to be a real sword. I'm not lying, see? My blade isn't getting any longer.~
+@8    = ~Shave and a haircut- how does the rest of that go?~
+@9    = ~99 bottles of bitter black ale on the wall, 99 bottles of bitter black ale, take 'em all down, pass 'em around, 99 bottles appear on the wall... everybody! 98 bottles of bitter black ale on the wall...~
+@10   = ~Effects? Bonuses? What do you want? I'm a talking sword.~
+@11   = ~Toy boat, toy boat, toy boat, toi boit, toh boight, gah! I still can't get it.~
+@12   = ~I wish there were monkeys around here. Monkeys are cool, and funny.~
+@13   = ~I wanna be a cleric... Do swords have gods?~
+@14   = ~Hey, you aren't going to wack me on the hilt, are you? Promise?~
+@15   = ~Great... Another Gibberling, please don't run away this time, I want to see some action before I rust to death!~
+@16   = ~Can you show me how to sharpen me?~
+@17   = ~I don't give you anything for listening to me.~
+@18   = ~Too dark, I can't see anything.~
+@19   = ~Wait... I don't have eyes!~
+@20   = ~Wait... I don't have a mouth!~
+@21   = ~Wait... I don't have a ears!~
+@22   = ~Wait... what was I talking about?~
+@23   = ~Now where did I put my holster?~
+@24   = ~You're adventurers? I wanna be an adventurer. Actually, I WAS an adventurer... and then I got turned into a sword.~
+@25   = ~Everyone else has waked me on the hilt. Will you?~
+@26   = ~Wow! Is that a dragon?~
+@27   = ~My grandmother once told me that little swords should be wielded and not seen.~
+@28   = ~Your hands are really sweaty!~
+@29   = ~Does this scabbard make my hilt look fat?~
+@30   = ~Is it me, or am I the only one in the party that thinks that <CHARNAME> talks to much?~
+@31   = ~How much wood could a Umber Haulk chuck if a Umber Haulk could chuck wood?~
+@32   = ~Not my fault my shaft is bigger than yours.~
+@33   = ~A funny thing happened to me the other day, I was walking... get it... walking... I'm a sword!~
+@34   = ~I'm up in Amn, working on my fitness, <CHARNAME> is my witness.~
+@35   = ~A Priest of Lathander and a Kobold walk into a bar... ... ... Guess you heard that one.~
+@36   = ~Drizzt me this?~
+@37   = ~I think I might stop talking for a while. NOT!~
+@38   = ~Ever been to Baldur's Gate? I've been to Baldur's Gate.~
+@39   = ~Those colors look pretty stoopid on you...~
+@40   = ~I once knew this guy named Dilby. Wonder what happened to him?~
+@41   = ~Back in my day, I had to walk through an Ankheg field with no shoes on in the rain just to find an inn.~
+@42   = ~I believe that I left something in your mom's Bag of Holding.~
+@43   = ~Fear my easily- um... cutting-ness.~
+@44   = ~You're so stupid, that you're... stupid.~
+@45   = ~I'll cut through it like butter, or maybe margarin. Which one is harder?~
+@46   = ~No one will escape my steely gaze. Heh, get it? Steel?~
+@47   = ~Y'know, I was actually made by the dwarves as a gift to the elves. I heard them talking about something that was supposed to be a practical joke, but I never saw what that was.~
+@48   = ~Hee, try to say 'Got Amn' five times really fast.~
+@49   = ~I wish there were monkeys around here. Monkeys are cool, and funny.~
+@50   = ~Watch out, my sister was bitten by a moose once. Moose bites can be really nasty.~
+@51   = ~Hey Monsters... MONSTERS... We are over here!~
+@52   = ~Great... Another Gibberling, please don't run away this time, I want to see some action before I rust to death!~
+@53   = ~Wow, that last monster was pretty cool.~
+@54   = ~I shall cleave my enemies asunder and tear into the breast of our foes!... hehehe breast...~
+@55   = ~I don't like dungeons. They're scary and confusing.~
+@56   = ~Ouch! Aim for the soft spots, please!~
+@57   = ~Are guts supposed to look like that?~
+@58   = ~A guy used me on a dragon once... these guys smell like dragons~
+@59   = ~Who are you calling a bastard sword?!~
+@60   = ~There is only room for one of us in your hands!~
+@61   = ~Monsters... BEWARE..., Nothing rhymes with monster... who would have guessed?~
+@62   = ~You call that armor? You should fire your blacksmith.~
+@63   = ~Hurry up and say that you are near death!~
+@64   = ~Did you graduate from the College of Sucky Fighting?~
+@65   = ~*sniff* I can smell your fear... You could use a shower.~
+@66   = ~Yuck. I hate it when they gush.~
+@67   = ~Don't tell <CHARNAME>, but I am rooting for your side.~
+@68   = ~My brother told me hobgoblins were made of candy~
+@69   = ~Don't you owe me money?~
+@70   = ~You are lucky I can't cast Magic Missile, or... I would!~
+@71   = ~Love washes off easier than blood.~
+@72   = ~One, Two, Three, Shoot... I got rock.~
+@73   = ~One, Two, Three, Shoot... I got paper.~
+@74   = ~One, Two, Three, Shoot... I got scissors.~
+@75   = ~I win, you lose, and you know why? Since you lose... that means that I win!~
+@76   = ~You talking to me? I don't see any other Sword of Noober's, so you must be talking to me!~
+@77   = ~Quick! I need to drink a Potion of Drinking.~
+@78   = ~I am about to iron shortage your behind!~
+@79   = ~If you were me and I was you, I would run!~
+@80   = ~Is your crossbow on safety?~
+@81   = ~Sword goes in, blood comes out.~
+@82   = ~I am going to hit you so hard you will wake up in Candlekeep~
+@83   = ~Why this is strange... You feel the need of talking with me?~
+@84   = ~Is there a reason why you are so... well... you?~
+@85   = ~Nope.~
+@86   = ~So... me? What do you mean by that?~
+@87   = ~Nothing, just forget it.~
+@88   = ~Annoying!~
+@89   = ~Such a great sword to get along with!~
+@90   = ~That is rude... I am not annoying, you just don't understand me. You are just always thinking of yourself. I am going to help that poor lady find her child, I am going to save the slave children. Always I am this and I am that. Maybe you should think of others and their feelings sometimes!~
+@91   = ~Isn't saving people, thinking of others?~
+@92   = ~Umm... yeah.~
+@93   = ~You really didn't answer my question.~
+@94   = ~Well, I know it is going to be hard to believe, but I wasn't always this way. It took time. I had to really work on my self, but after awhile people just were stunned by my presence.~
+@95   = ~Of course you can bend works to make them sound good. Like... I could bend war into warm.~
+@96   = ~Do you ever listen to your self?~
+@97   = ~Your question does not have an answer, just as the wind does not have a purpose.~
+@98   = ~I try not to, it takes time away from the things that I am trying to say.~
+@99   = ~I thought so.~
+@100  = ~Well... Well... Look who is back for more knowledge from the Noober.~
+@101  = ~What did you do after we left Nashkel?~
+@102  = ~Were you and your brother good friends?~
+@103  = ~Do you ever listen to your self?~
+@104  = ~It is kind of a long story, want to hear it?~
+@105  = ~Thank GOD! for asking first, but no.~
+@106  = ~I have nothing else useful to do, so sure.~
+@107  = ~Look at the time, I have to get going.~
+@108  = ~Yes, the best. I can tell you a story about him and me. Want to hear it?~
+@109  = ~Good, since I really didn't want you to listen to it, it is too complicated for your mind, and I don't want your mind to hurt!~
+@110  = ~After you were so kind and did not throw a rock at me, I thought it should be my turn to be nice. So I started giving public speech's on supporting our local adventures, but people didn't listen, they just threw rocks.
+I did not give up though. I tried screaming my lecture from atop high places, but once again, people threw rocks. Since I was standing on a high place, I fell. I forgot that people of Nashkel are very simple minded, so it was time for me to head out. I packed my belonging and headed out to Trademeet where my brother lives. I had some good adventures. Like you, I fought the odds and won at the end. I was kidnapped by bandits, but I was such a smooth talker, they didn't even have time to untie me, they just left me on the side of the road and ran. The whole way I was sining songs that I wrote, like this one.
+Dragons and Witches
+And Demons oh... my!!
+This is when Noober comes in
+And pokes them in the eye!
+Or another one of my favorite songs.
+Kobolds are red,
+Oranges are well... Orange,
+Noober is the best,
+Happy birthday to you.
+Still working on the last song, not to many words rhyme with orange.
+After a month or so, I finally got to Trademeet.~
+@111   = ~Wow! That was almost interesting.~
+@112   = ~Is that it?~
+@113   = ~Well, you are the one who asked to hear it. I could go on, but all that happened was that I went back to Nashkel since the rocks thrown at me were a different colors and hurt at least three times more than the rocks from Trademeet.~
+@114   = ~It might be. Not sure.~
+@115   = ~You've been really nice to me. I'll give you some rocks that other people threw at me. Also you can have this sword. Please take care of it.~
