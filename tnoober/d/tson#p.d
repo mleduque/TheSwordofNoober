@@ -1,6 +1,7 @@
 BEGIN tson#p
 
-IF ~NumTimesTalkedTo(0)~ FirstMeeting //Talked to the first time
+// Talked to the first time
+IF ~NumTimesTalkedTo(0)~ FirstMeeting
 SAY @83
 IF ~~ THEN REPLY @84 GOTO a1
 IF ~~ THEN REPLY @85 EXIT
@@ -47,7 +48,8 @@ IF ~~ THEN REPLY @84 GOTO a1
 IF ~~ THEN REPLY @92 EXIT
 END
 
-IF ~NumTimesTalkedToGT(0)~ OtherMeeting //The conversation that will happen if PC will try to talk with TSON again
+// The conversation that will happen if PC will try to talk with TSON again
+IF ~NumTimesTalkedToGT(0)~ OtherMeeting
 SAY @100
 IF ~~ THEN REPLY @84 GOTO a1
 IF ~~ THEN REPLY @101 GOTO b1
@@ -98,7 +100,8 @@ IF ~~ THEN REPLY @103 GOTO a6
 IF ~~ THEN REPLY @92 EXIT
 END
 
-ADD_TRANS_ACTION NEEBER // Patching an action in NEEBER.dlg
+// Patching an action in NEEBER.dlg
+ADD_TRANS_ACTION NEEBER
 BEGIN 16 END // Patching the sixteenth state
 BEGIN 0 END // Patching the first transition/reply of the state
 ~GiveItemCreate("TSON#P",LastTalkedToBy,1,1,0)~ // The change
