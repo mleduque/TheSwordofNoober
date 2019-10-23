@@ -1,0 +1,86 @@
+//////////////////////////////////
+//  The Sword of Noober v2.0/0  //
+//////////////////////////////////
+BACKUP ~tnoober/backup~
+//AUTHOR ~Pex657@gmail.com~
+SUPPORT ~~
+
+VERSION ~2.0.0~
+
+README ~tnoober/readme/tnoober-readme-%LANGUAGE%.txt~ ~tnoober/readme/tnoober-readme-english.txt~
+
+
+ALWAYS
+
+	/* Converts tra files to UTF-8 */
+	ACTION_DEFINE_ARRAY T_reload BEGIN setup END
+	ACTION_DEFINE_ARRAY T_noconvert BEGIN END
+	LAF HANDLE_CHARSETS
+		INT_VAR
+			infer_charset = 1
+		STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/lang~
+			noconvert_array = T_noconvert
+			reload_array = T_reload
+	END
+
+	/* Loads in any shared functions library (general macros and functions) */
+	INCLUDE ~tnoober/lib/gw_functions.tpa~						// Loads macros and functions library dealing with tooltip appending and specific EE items descriptions.
+	INCLUDE ~tnoober/lib/gw_convert_inventory_bam_to_ee.tpa~	// Function converting inventory BAMs to EE.
+
+END
+
+LANGUAGE ~English~
+         ~english~
+         ~tnoober/lang/english/setup.tra~
+
+LANGUAGE ~Francais (par Le Marquis)~
+         ~french~
+         ~tnoober/lang/french/setup.tra~
+
+
+/* ==================================== *
+ *         The Sword of Noober          *
+ * ==================================== */
+
+BEGIN @1000
+DESIGNATED 0
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @1020
+
+/* ------- *
+ *  Items  *
+ * ------- */
+COPY ~tnoober/itm/tson#p.itm~ ~override~
+  SAY NAME1 #6646
+  SAY NAME2 @1
+  SAY UNIDENTIFIED_DESC #6738
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@2" END
+
+/* --------------------------------- *
+ *  Copy BAMs or convert them to EE  *
+ * --------------------------------- */
+ACTION_IF GAME_IS ~bg2ee eet~
+	ACTION_BASH_FOR ~tnoober/bam/~ ~^.+\.bam$~ BEGIN
+		ACTION_TO_LOWER %BASH_FOR_FILE%
+		ACTION_TO_LOWER %BASH_FOR_RES%
+		COPY ~%BASH_FOR_FILESPEC%~ ~override/%BASH_FOR_FILE%~
+			LPF ~gw_convert_inventory_bam_to_ee~ END
+		BUT_ONLY
+	END
+END ELSE BEGIN
+	COPY ~tnoober/bam~	~override~
+END
+
+/* ------------------- *
+ *  Extending Scripts  *
+/* ------------------- */
+EXTEND_BOTTOM ~baldur.bcs~ ~tnoober/baf/baldur.baf~
+//USING ~tnoober/English/setup.tra~
+
+/* -------- *
+ *  Dialog  *
+ * -------- */
+COMPILE ~tnoober/d/tson#p.d~
+
+APPEND ~itemdial.2da~
+~TSON#P 5689 TSON#P~
