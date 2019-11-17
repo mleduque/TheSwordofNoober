@@ -10,12 +10,12 @@
 </div><br />
 
 
-**Original Authors:** Pex657 and Kerintok  
-**Mod Website and Forum:** <a href="">Spellhold Studios</a><br /><br />
+**Original Authors:** Pex657 (aka BalanceRD) and Kerintok  
+**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36038-the-sword-of-noober/">Spellhold Studios</a><br /><br />
 
 
 <div align="center">
-<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></center></br>
+<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></br>
 </div>
 
 <hr>
@@ -45,9 +45,9 @@ This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If 
 
 #### Notes
 
-<em>If you've previously installed the mod, remove it before extracting the new version. To do this, run **setup-tnoober.exe**, uninstall the previously installed main component and delete the tnoober folder.</em>
+*If you've previously installed the mod, remove it before extracting the new version. To do this, run **`setup-tnoober.exe`**, uninstall the previously installed main component and delete the :file_folder: tnoober folder.*
 
-<em>When installing or uninstalling, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.</em>
+*When installing or uninstalling, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.*
 
 **Disable any antivirus** or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.
 
@@ -61,9 +61,9 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 #### Windows
 
-Extract the contents of the mod archive into the folder of the game you wish to modify (<em>the folder which contains the "CHITIN.KEY" file</em>), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a tnoober folder and a setup-tnoober.exe file in your game folder. To install, simply double-click **setup-tnoober.exe** and follow the instructions on screen.
+Extract the contents of the mod archive into the folder of the game you wish to modify (*the folder which contains the "CHITIN.KEY" file*), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: tnoober folder and a setup-tnoober.exe file in your game folder. To install, simply double-click **`setup-tnoober.exe`** and follow the instructions on screen.
 
-Run **setup-tnoober.exe** in your game folder to reinstall, uninstall or otherwise change the component settings.
+Run **`setup-tnoober.exe`** in your game folder to reinstall, uninstall or otherwise change the component settings.
 
 ## 
 
@@ -86,7 +86,7 @@ The installer includes one single component, the main component.
 
 ## <a name="credits" id="credits"></a>Credits and Acknowledgements
 
-#### Authors: Pex657 and Kerintok
+#### Authors: Pex657 (aka <a href="http://www.shsforums.net/user/10778-balancerd/">BalanceRD</a>) and Kerintok
 
 
 #### Special Acknowledgements to:
@@ -95,15 +95,15 @@ The installer includes one single component, the main component.
 - Gwendolyne: Fixed translations and released version 2.0.0.
 - Deratiseur: Provided the EE compatible version (version 1.2).
 - Le Marquis (the d'Oghmatiques): Provided French translation.
-Thanks to: Spellhold Studios
+- <a href="http://www.spellholdstudios.net/">Spellhold Studios</a> team for hosting the mod (<a href="http://www.shsforums.net/topic/36038-the-sword-of-noober/">Forum</a>).
 
-If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="">mod forum</a>.</br>
+If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/36038-the-sword-of-noober/">mod forum</a>.</br>
 
 
 #### Copyrights Information
 
-###### The Sworf of Noober is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Pex657 and Kerintok, based on material from the game Baldur's Gate II and its expansion.
-###### Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp. All other trademarks and copyrights are property of their respective owners.
+###### The Sword of Noober is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Pex657 and Kerintok, based on material from the game Baldur's Gate II and its expansion.
+###### Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp.
 ###### All other trademarks and copyrights are the property of their respective owners.</br>
 <div align="right"><a href="#top">Back to top</a></div>
 
@@ -115,22 +115,23 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ##### Version 2.0.0 (, 2019)
 
-- Renamed Setup-TNoober.tp2 -> tnoober.tp2 to support AL|EN's "Project Infinity".
+- Renamed *Setup-TNoober.tp2* -> *tnoober.tp2* to support AL|EN's "Project Infinity".
 - Added tnoober.ini metadata file to support AL|EN's "Project Infinity".
+- The sword of Noober (tson#p.itm): fixed wrong header icon, added missing opcodes for a full Sleep effect (#142, #141, #139 and #174).
 - Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the override folder.
-- Reorganized mod architecture tree: created folders to sort files according to their types.
-- Reorganized component (DESIGNATED number).
-- Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games.
+- Reorganized component (*DESIGNATED* number) and added LABEL "*the_sword_of_noober*".
+- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
 - Added README command in tp2.
 - Replaced AUTHOR keyword with SUPPORT.
-- Updated and renamed readme file to tnoober-readme-%LANGUAGE%.
+- Updated and renamed readme file to *tnoober-readme-%LANGUAGE%.txt*.
 - Updated French and English translations (Gwendolyne).
+- Reorganized mod architecture tree: created folders to sort files according to their types.
 
 ## 
 
 ##### Version 1.2 (July 31, 2019)
 
-- Added BG2EE compatibility (By deratiseur)
+- Added native BG2EE compatibility (By deratiseur)
 - Updated WeiDU installer to v246.
 
 ## 
@@ -139,7 +140,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 - Added French translation by Le Marquis (of the d'Oghmatiques).
 - Added version flag.
-- Updated WeiDU installer v227.
+- Updated WeiDU installer to v227.
 
 ## 
 
