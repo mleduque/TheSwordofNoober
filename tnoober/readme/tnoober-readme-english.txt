@@ -49,6 +49,7 @@ Run setup-tnoober.exe in your game folder to reinstall or uninstall the mod.
 
 - Lady Margolotta, Shed, Jyzabyl, Andyr, Lord-Jyssev, Sir Kalthorine, Grey Acumen, Cmorgan for dialog suggestions and help with coding.
 - Gwendolyne: Fixed translations and released version 2.0.0.
+- AL|EN: Wrote process which automatically provides Windows, Linux and Mac versions in the same archive file.
 - Deratiseur: Provided the EE compatible version (version 1.2).
 - Le Marquis (the d'Oghmatiques): Provided French translation.
 - Spellhold Studios team for hosting the mod Forum ( http://www.shsforums.net/topic/36038-the-sword-of-noober/ ).
@@ -87,6 +88,7 @@ Version 2.0.0 (November 17, 2019)
 - Replaced AUTHOR keyword with SUPPORT.
 - Updated and renamed readme file to tnoober-readme-%LANGUAGE%.txt.
 - Updated French and English translations (Gwendolyne).
+- Included Linux and Mac versions in the same package (thanks AL|EN!).
 - Reorganized mod architecture tree: created folders to sort files according to their types.
 
 Version 1.2 (July 31, 2019)

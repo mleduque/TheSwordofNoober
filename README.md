@@ -1,9 +1,9 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/GwendolyneFreddy/TheSwordofNoober?include_prereleases&color=darkred)<a name="top" id="top">
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
+![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French&color=limegreen)
 
-<div align="center"><h1></a>The Sword of Noober (WIP)</h1>
+<div align="center"><h1></a>The Sword of Noober</h1>
 
 <h3>A mod for Baldur's Gate II (classical and EE games), Baldur's Gate Trilogy and EET</h3>
 
@@ -67,6 +67,28 @@ Run **`setup-tnoober.exe`** in your game folder to reinstall, uninstall or other
 
 ## 
 
+#### Mac OS X
+
+The Sword of Noober for Mac OS X is distributed in the same compressed archive than the Windows one.
+
+First, extract the files from the archive into your game directory. On successful extraction, there should be a :file_folder: tnoober folder, setup-tnoober and setup-tnoober.command files in your game folder. To install, simply double-click **`setup-tnoober.command`** and follow the instructions on screen.
+
+Run **`setup-tnoober.command`** in your game folder to reinstall, uninstall or otherwise change the components settings.
+
+## 
+
+#### Linux
+
+The Sword of Noober for Linux is distributed in the same compressed archive than the Windows one and does not include a WeiDU installer.
+
+Extract the contents of the mod to the folder of the game you wish to modify.
+
+Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy WeiDU and WeInstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+
+To install, run **`WeInstall setup-tnoober`** in your game folder. Then run **`wine BGMain.exe`** (or **`wine Baldur.exe`** for EE games) and start playing.
+
+## 
+
 #### Note for Complete Uninstallation
 
 In addition to the methods above for removing individual components, you can completely uninstall the mod using **`setup-tnoober --uninstall`** at the command line to remove all components without wading through prompts.</br>
@@ -93,6 +115,7 @@ The installer includes one single component, the main component.
 
 - Lady Margolotta, Shed, Jyzabyl, Andyr, Lord-Jyssev, Sir Kalthorine, Grey Acumen, Cmorgan for dialog suggestions and help with coding.
 - Gwendolyne: Fixed translations and released version 2.0.0.
+- AL|EN: Wrote process which automatically provides Windows, Linux and Mac versions in the same archive file.
 - Deratiseur: Provided the EE compatible version (version 1.2).
 - Le Marquis (the d'Oghmatiques): Provided French translation.
 - <a href="http://www.spellholdstudios.net/">Spellhold Studios</a> team for hosting the mod (<a href="http://www.shsforums.net/topic/36038-the-sword-of-noober/">Forum</a>).
@@ -127,6 +150,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - Replaced AUTHOR keyword with SUPPORT.
 - Updated and renamed readme file to *tnoober-readme-%LANGUAGE%.txt*.
 - Updated French and English translations (Gwendolyne).
+- Included Linux and Mac versions in the same package (thanks AL|EN!).
 - Reorganized mod architecture tree: created folders to sort files according to their types.
 
 ## 
