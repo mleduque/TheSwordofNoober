@@ -15,11 +15,13 @@ Capacité de combat :
 TAC0 : +4
 Dégâts : 2d4 +4
 Type de dégâts : tranchant
-Poids : 20
 Facteur de vitesse : 7
 Type de compétence : épée bâtarde
 Type : arme à 1 main
 Force nécessaire : 11
+
+Poids : 20
+
 Non utilisable par :
  Druide
  Clerc

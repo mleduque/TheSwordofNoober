@@ -9,20 +9,26 @@
 
 STATISTICS:
 
+Combat abilities:
+- 30% chance that any creature hit by the sword will run away from hearing the sword talking
+
 THACO: +4
 Damage: 2d4+4
-Special: 30% chance that any creature hit by the sword will run away from hearing the sword talking
 Damage type: slashing
-Weight: 20
 Speed Factor: 7
 Proficiency Type: Bastard Sword
 Type: One-handed
 Requires: 11 Strength
+
+Weight: 20
+
 Not Usable By:
  Druid
  Cleric
  Mage
- Thief~
+ Thief
+ Monk
+ Beast Master~
 
 @3    = ~Sniffle. Can somebody scratch my nose?~
 @4    = ~I wanna be a Bhaalspawn!~
