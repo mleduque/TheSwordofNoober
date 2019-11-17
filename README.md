@@ -1,5 +1,5 @@
 
-![Latest Release](https://img.shields.io/static/v1?label=release&message=v2.0.0&color=darkred)<a name="top" id="top">
+![Latest Release](https://img.shields.io/github/v/release/GwendolyneFreddy/TheSwordofNoober?include_prereleases&color=darkred)<a name="top" id="top">
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French&color=limegreen)
 
@@ -121,7 +121,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - Append baldur25.bcs: give me one single reason why The Sword of Noober should be mute in ToB extension. :innocent:
 - The sword of Noober (tson#p.itm): fixed wrong header icon, added missing opcodes for a full Sleep effect (#142, #141, #139 and #174). Fixed item description: added missing kit restrictions.
 - Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the override folder.
-- Reorganized component (*DESIGNATED* number) and added LABEL "*the_sword_of_noober*".
+- Reorganized component (*DESIGNATED* number) and added *LABEL* "*the_sword_of_noober*".
 - Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
 - Added README command in tp2.
 - Replaced AUTHOR keyword with SUPPORT.
