@@ -1,8 +1,8 @@
 /* ================================================================================================================================================== *
  * LIST of FUNCTIONS :                                                                                                                                *
  * -------------------                                                                                                                                *
- *  - FUNCTION GW_UPDATE_ITM_DESCRIPTION_TO_EE		: MODIFIES item descriptions to fit EE description format.                         => line #   9  *
- *  - FUNCTION GW_WRITE_EE_ITM_DESCRIPTIONS			: WRITES item descriptions in ITM files according to the game (classical or EE).   => line #  49  *
+ *  - FUNCTION GW_UPDATE_ITM_DESCRIPTION_TO_EE      : MODIFIES item descriptions to fit EE description format.                         => line #   9  *
+ *  - FUNCTION GW_WRITE_EE_ITM_DESCRIPTIONS         : WRITES item descriptions in ITM files according to the game (classical or EE).   => line #  49  *
  * ================================================================================================================================================== */
 
 /* ========================================================================================================== *
