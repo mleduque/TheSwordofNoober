@@ -150,7 +150,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - Replaced AUTHOR keyword with SUPPORT.
 - Updated and renamed readme file to *tnoober-readme-%LANGUAGE%.txt*.
 - Updated French and English translations (Gwendolyne).
-- Included Linux and Mac versions in the same package (thanks AL|EN!).
+- Included Linux and Mac versions in the same packages (thanks AL|EN!).
 - Reorganized mod architecture tree: created folders to sort files according to their types.
 
 ## 
