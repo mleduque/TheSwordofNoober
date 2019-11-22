@@ -1,5 +1,5 @@
 
-![Latest Release](https://img.shields.io/github/v/release/GwendolyneFreddy/TheSwordofNoober?include_prereleases&color=darkred)<a name="top" id="top">
+![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/TheSwordofNoober?include_prereleases&color=darkred)<a name="top" id="top">
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French&color=limegreen)
 
@@ -116,7 +116,7 @@ The installer includes one single component, the main component.
 - Lady Margolotta, Shed, Jyzabyl, Andyr, Lord-Jyssev, Sir Kalthorine, Grey Acumen, Cmorgan for dialog suggestions and help with coding.
 - Gwendolyne: Fixed translations and released version 2.0.0.
 - AL|EN: Wrote process which automatically provides Windows, Linux and Mac versions in the same archive file.
-- Deratiseur: Provided the EE compatible version (version 1.2).
+- Deratiseur: Provided native compatible version (v1.2).
 - Le Marquis (the d'Oghmatiques): Provided French translation.
 - <a href="http://www.spellholdstudios.net/">Spellhold Studios</a> team for hosting the mod (<a href="http://www.shsforums.net/topic/36038-the-sword-of-noober/">Forum</a>).
 
@@ -144,14 +144,14 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - Append baldur25.bcs: give me one single reason why The Sword of Noober should be mute in ToB extension. :innocent:
 - The sword of Noober (tson#p.itm): fixed wrong header icon, added missing opcodes for a full Sleep effect (#142, #141, #139 and #174). Fixed item description: added missing kit restrictions.
 - Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the override folder.
-- Reorganized component (*DESIGNATED* number) and added *LABEL* "*the_sword_of_noober*".
+- Reorganized component (*DESIGNATED* number) and added "*the_sword_of_noober*" *LABEL*.
 - Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
 - Added README command in tp2.
 - Replaced AUTHOR keyword with SUPPORT.
-- Updated and renamed readme file to *tnoober-readme-%LANGUAGE%.txt*.
+- Updated and renamed readme file to *tnoober-readme-english.txt*.
 - Updated French and English translations (Gwendolyne).
-- Included Linux and Mac versions in the same packages (thanks AL|EN!).
 - Reorganized mod architecture tree: created folders to sort files according to their types.
+- Included Linux and Mac versions in the same package (thanks AL|EN!).
 
 ## 
 
@@ -162,7 +162,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## 
 
-##### Version 1.1
+##### Version 1.1 (February 20, 2011)
 
 - Added French translation by Le Marquis (of the d'Oghmatiques).
 - Added version flag.
@@ -170,7 +170,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## 
 
-##### Version 1.0
+##### Version 1.0 (August 22, 2008)
 
 - Initial release.
 <div align="right"><a href="#top">Back to top</a></div>
