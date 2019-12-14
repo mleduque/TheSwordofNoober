@@ -1,5 +1,5 @@
 
-![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/TheSwordofNoober?include_prereleases&color=darkred)<a name="top" id="top">
+![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/TheSwordofNoober?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French&color=limegreen)
 
@@ -15,7 +15,7 @@
 
 
 <div align="center">
-<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></br>
+<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#faq">FAQ</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></br>
 </div>
 
 <hr>
@@ -45,9 +45,9 @@ This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If 
 
 #### Notes
 
-*If you've previously installed the mod, remove it before extracting the new version. To do this, run **`setup-tnoober.exe`**, uninstall the previously installed main component and delete the :file_folder: tnoober folder.*
+*If you've previously installed the mod, remove it before extracting the new version. To do this, run **`setup-tnoober.exe`**, un-install the previously installed main component and delete the :file_folder: tnoober folder.*
 
-*When installing or uninstalling, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.*
+*When installing or un-installing, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.*
 
 **Disable any antivirus** or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.
 
@@ -89,9 +89,9 @@ To install, run **`WeInstall setup-tnoober`** in your game folder. Then run **`w
 
 ## 
 
-#### Note for Complete Uninstallation
+#### Note for Complete Un-installation
 
-In addition to the methods above for removing individual components, you can completely uninstall the mod using **`setup-tnoober --uninstall`** at the command line to remove all components without wading through prompts.</br>
+In addition to the methods above for removing individual components, you can completely un-install the mod using **`setup-tnoober --uninstall`** at the command line to remove all components without wading through prompts.</br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -101,6 +101,19 @@ In addition to the methods above for removing individual components, you can com
 ## <a name="components" id="components"></a>Components
 
 The installer includes one single component, the main component.
+
+
+<hr>
+
+
+## <a name="faq" id="faq"></a>Frequently Asked Questions
+
+**Q: How do I get The Sword of Noober?**  
+A: Talk with Neeber.
+
+**Q: Talking items are lame!, We don't need another talking item**  
+A: Agree and agree. This was more for me to learn some coding and to have a little fun.
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -135,6 +148,12 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 
 ## <a name="versions" id="versions"></a>Versions History
+
+##### Version 2.0.1 (December 14, 2019)
+
+- Fixed an issue with *Auto-Package Generator tool*: new version of MacOS (Catalina) prevented the mod to be installed.
+
+## 
 
 ##### Version 2.0.0 (November 17, 2019)
 
