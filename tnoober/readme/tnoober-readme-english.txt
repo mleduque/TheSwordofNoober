@@ -1,6 +1,6 @@
 //////////////////////////////////////
 //  The Sword of Noober             //
-//  Version 2.0.0                   //
+//  Version 2.0.1                   //
 //  Pex657@gmail.com                //
 //  By:Pex657 and Kerintok          //
 //////////////////////////////////////
@@ -40,7 +40,7 @@ This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If 
 
 Extract the contents of the mod archive into the folder of the game you wish to modify (the folder which contains the "CHITIN.KEY" file). On successful extraction, there should be a tnoober folder and a setup-tnoober.exe file in your game folder. To install, simply double-click setup-tnoober.exe and follow the instructions on screen.
 
-Run setup-tnoober.exe in your game folder to reinstall or uninstall the mod.
+Run setup-tnoober.exe in your game folder to reinstall or un-install the mod.
 
 
 /////////////////
@@ -54,7 +54,8 @@ Run setup-tnoober.exe in your game folder to reinstall or uninstall the mod.
 - Le Marquis (the d'Oghmatiques): Provided French translation.
 - Spellhold Studios team for hosting the mod Forum ( http://www.shsforums.net/topic/36038-the-sword-of-noober/ ).
 
-If you see your suggestion in the mod and do not see your name here, please e-mail me  (See below) and I will gladly add it.
+(If you see your suggestion in the mod and do not see your name here, please e-mail me (See below) and I will gladly add it.)
+If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/36038-the-sword-of-noober/">mod forum</a>.</br>
 
 
 ///////////////
@@ -74,6 +75,9 @@ A: Please send me an e-mail to: Pex657@gmail.com with the Subject line: The Swor
 ///////////////////////////
 //  6. Versions History  //
 ///////////////////////////
+
+Version 2.0.1 (December 14, 2019)
+- Fixed an issue with Auto-Package Generator tool: new version of MacOS (Catalina) prevented the mod to be installed.
 
 Version 2.0.0 (November 17, 2019)
 - Renamed Setup-TNoober.tp2 -> tnoober.tp2 to support AL|EN's "Project Infinity".
