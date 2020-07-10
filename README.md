@@ -1,7 +1,7 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/TheSwordofNoober?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian&color=limegreen)
 
 <div align="center"><h1></a>The Sword of Noober</h1>
 
@@ -83,9 +83,9 @@ The Sword of Noober for Linux is distributed in the same compressed archive than
 
 Extract the contents of the mod to the folder of the game you wish to modify.
 
-Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy WeiDU and WeInstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu and weinstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
 
-To install, run **`WeInstall setup-tnoober`** in your game folder. Then run **`wine BGMain.exe`** (or **`wine Baldur.exe`** for EE games) and start playing.
+To install, run **`weinstall setup-tnoober`** in your game folder. Then run **`wine bgmain.exe`** (or **`wine baldur.exe`** for EE games) and start playing.
 
 ## 
 
@@ -130,6 +130,7 @@ A: Agree and agree. This was more for me to learn some coding and to have a litt
 - Gwendolyne: Fixed translations and released version 2.0.0.
 - AL|EN: Wrote process which automatically provides Windows, Linux and Mac versions in the same archive file.
 - Deratiseur: Provided native compatible version (v1.2).
+- MacksimSl: Provided Russian translation.
 - Le Marquis (the d'Oghmatiques): Provided French translation.
 - <a href="http://www.spellholdstudios.net/">Spellhold Studios</a> team for hosting the mod (<a href="http://www.shsforums.net/topic/36038-the-sword-of-noober/">Forum</a>).
 
@@ -147,7 +148,15 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 <hr>
 
 
-## <a name="versions" id="versions"></a>Versions History
+## <a name="versions" id="versions"></a>Version History
+
+##### Version 2.1.0 (July 10, 2020)
+
+- Fixed a typo in `HANDLE_CHARSETS` function (replaced *infer_charset* with *infer_charset<ins>s</ins>*)
+- Added Russian translation (by MacksimSl).
+- Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
+
+## 
 
 ##### Version 2.0.1 (December 14, 2019)
 
@@ -157,20 +166,21 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ##### Version 2.0.0 (November 17, 2019)
 
+- Added *tnoober.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *Setup-TNoober.tp2* -> *tnoober.tp2* to support AL|EN's "Project Infinity".
-- Added tnoober.ini metadata file to support AL|EN's "Project Infinity".
+- Replaced `AUTHOR` keyword with `SUPPORT`.
+- Added component `DESIGNATED` number and "*the_sword_of_noober*" `LABEL`.
+- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
+- Added `README` command.
 - Rewrote itemdial.2da appending in a more "cosmetic" way.
 - Append baldur25.bcs: give me one single reason why The Sword of Noober should be mute in ToB extension. :innocent:
 - The sword of Noober (tson#p.itm): fixed wrong header icon, added missing opcodes for a full Sleep effect (#142, #141, #139 and #174). Fixed item description: added missing kit restrictions.
 - Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the override folder.
-- Reorganized component (*DESIGNATED* number) and added "*the_sword_of_noober*" *LABEL*.
-- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
-- Added README command in tp2.
-- Replaced AUTHOR keyword with SUPPORT.
-- Updated and renamed readme file to *tnoober-readme-english.txt*.
+- Updated and renamed readme file to *tnoober-readme-english.txt*, then moved it into new "*readme*" folder.
 - Updated French and English translations (Gwendolyne).
 - Reorganized mod architecture tree: created folders to sort files according to their types.
 - Included Linux and Mac versions in the same package (thanks AL|EN!).
+- Transferred mod to Spellhold Studios GitHub account.
 
 ## 
 
