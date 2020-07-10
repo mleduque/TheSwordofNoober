@@ -3,9 +3,9 @@
 //////////////////////////////////
 BACKUP ~tnoober/backup~
 //AUTHOR ~Pex657@gmail.com~
-SUPPORT ~http://www.shsforums.net/topic/36038-the-sword-of-noober/~
+SUPPORT ~Spellhold Studios at http://www.shsforums.net/topic/36038-the-sword-of-noober/~
 
-VERSION ~2.0.1~
+VERSION ~2.1.0~
 
 README ~tnoober/readme/tnoober-readme-%LANGUAGE%.txt~ ~tnoober/readme/tnoober-readme-english.txt~
 
@@ -17,7 +17,7 @@ ALWAYS
 	ACTION_DEFINE_ARRAY T_noconvert BEGIN END
 	LAF HANDLE_CHARSETS
 		INT_VAR
-			infer_charset = 1
+			infer_charsets = 1
 		STR_VAR
 			tra_path = EVAL ~%MOD_FOLDER%/tra~
 			noconvert_array = T_noconvert
@@ -37,6 +37,10 @@ LANGUAGE ~English~
 LANGUAGE ~Francais (traduction : Le Marquis)~
          ~french~
          ~tnoober/tra/french/setup.tra~
+
+LANGUAGE ~Francais (translation by MacksimSl)~
+         ~russian~
+         ~tnoober/tra/russian/setup.tra~
 
 
 /* ==================================== *

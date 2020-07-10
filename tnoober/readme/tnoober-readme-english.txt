@@ -1,6 +1,6 @@
 //////////////////////////////////////
 //  The Sword of Noober             //
-//  Version 2.0.1                   //
+//  Version 2.1.0                   //
 //  Pex657@gmail.com                //
 //  By:Pex657 and Kerintok          //
 //////////////////////////////////////
@@ -51,6 +51,7 @@ Run setup-tnoober.exe in your game folder to reinstall or un-install the mod.
 - Gwendolyne: Fixed translations and released version 2.0.0.
 - AL|EN: Wrote process which automatically provides Windows, Linux and Mac versions in the same archive file.
 - Deratiseur: Provided native EE compatible version (v1.2).
+- MacksimSl: Provided Russian translation.
 - Le Marquis (the d'Oghmatiques): Provided French translation.
 - Spellhold Studios team for hosting the mod Forum ( http://www.shsforums.net/topic/36038-the-sword-of-noober/ ).
 
@@ -76,24 +77,30 @@ A: Please send me an e-mail to: Pex657@gmail.com with the Subject line: The Swor
 //  6. Versions History  //
 ///////////////////////////
 
+Version 2.1.0 (July 10, 2020)
+- Fixed a typo in `HANDLE_CHARSETS` function (replaced *infer_charset* with "infer_charsets")
+- Added Russian translation (by MacksimSl).
+- Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
+
 Version 2.0.1 (December 14, 2019)
 - Fixed an issue with Auto-Package Generator tool: new version of MacOS (Catalina) prevented the mod to be installed.
 
 Version 2.0.0 (November 17, 2019)
-- Renamed Setup-TNoober.tp2 -> tnoober.tp2 to support AL|EN's "Project Infinity".
 - Added tnoober.ini metadata file to support AL|EN's "Project Infinity".
+- Renamed Setup-TNoober.tp2 -> tnoober.tp2 to support AL|EN's "Project Infinity".
+- Replaced `AUTHOR` keyword with `SUPPORT`.
+- Added component `DESIGNATED` number and "the_sword_of_noober" `LABEL`.
+- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
+- Added `README` command.
 - Rewrote itemdial.2da appending in a more "cosmetic" way.
 - Append baldur25.bcs: give me one single reason why The Sword of Noober should be mute in ToB extension.
 - The sword of Noober (tson#p.itm): fixed wrong header icon, added missing opcodes for a full Sleep effect (#142, #141, #139 and #174). Fixed item description: added missing kit restrictions.
 - Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the override folder.
-- Reorganized component (DESIGNATED number) and added "the_sword_of_noober" LABEL.
-- Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games.
-- Added README command in tp2.
-- Replaced AUTHOR keyword with SUPPORT.
-- Updated and renamed readme file to tnoober-readme-%LANGUAGE%.txt.
+- Updated and renamed readme file to "tnoober-readme-%LANGUAGE%.txt", then moved it into new "readme" folder.
 - Updated French and English translations (Gwendolyne).
-- Included Linux and Mac versions in the same packages (thanks AL|EN!).
 - Reorganized mod architecture tree: created folders to sort files according to their types.
+- Included Linux and Mac versions in the same packages (thanks AL|EN!).
+- Transferred mod to Spellhold Studios GitHub account.
 
 Version 1.2 (July 31, 2019)
 - Added native BG2EE compatibility (By deratiseur).
